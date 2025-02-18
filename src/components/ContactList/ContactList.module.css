@@ -1,0 +1,19 @@
+.ContactList {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ContactList li {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ContactList li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
